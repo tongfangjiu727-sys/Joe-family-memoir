@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "时光留声·家庭回忆录",
+  "short_name": "时光留声",
+  "description": "慢慢讲，我们一直听。把家人的回忆好好留下来。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5efe4",
+  "theme_color": "#f5efe4",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

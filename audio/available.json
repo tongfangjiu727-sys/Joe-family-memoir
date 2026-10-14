@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "files": [
+    "./audio/preview/intro-female.mp3",
+    "./audio/preview/intro-male.mp3"
+  ]
+}

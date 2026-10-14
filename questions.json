@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "prompts": {
+    "welcome": "您好，我们今天慢慢聊聊以前的故事。想起多少就讲多少，不着急。",
+    "supplement": "刚才这段回忆里，还有什么想补充的吗？",
+    "finished": "好的，我们把这段回忆好好记下来了。您还想聊聊哪个话题？"
+  },
+  "promptAudio": {
+    "welcome": {
+      "male": "./audio/male/prompt-welcome.mp3",
+      "female": "./audio/female/prompt-welcome.mp3"
+    },
+    "supplement": {
+      "male": "./audio/male/prompt-supplement.mp3",
+      "female": "./audio/female/prompt-supplement.mp3"
+    },
+    "finished": {
+      "male": "./audio/male/prompt-finished.mp3",
+      "female": "./audio/female/prompt-finished.mp3"
+    }
+  },
+  "topics": [
+    {
+      "id": "childhood",
+      "title": "小时候",
+      "subtitle": "家乡、童年和少年时光",
+      "mark": "01",
+      "questions": [
+        {
+          "id": "childhood-home",
+          "text": "您小时候住的地方是什么样子？家里和周围有哪些让您记得很清楚的地方？",
+          "audio": {
+            "male": "./audio/male/childhood-home.mp3",
+            "female": "./audio/female/childhood-home.mp3"
+          }
+        },
+        {
+          "id": "childhood-play",
+          "text": "您小时候最喜欢和谁一起玩？那时候最开心的一件事是什么？",
+          "audio": {
+            "male": "./audio/male/childhood-play.mp3",
+            "female": "./audio/female/childhood-play.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "title": "求学岁月",
+      "subtitle": "学校、老师和年轻时的梦想",
+      "mark": "02",
+      "questions": [
+        {
+          "id": "school-first-day",
+          "text": "您还记得第一次上学的情景吗？那天是谁陪您去的？",
+          "audio": {
+            "male": "./audio/male/school-first-day.mp3",
+            "female": "./audio/female/school-first-day.mp3"
+          }
+        },
+        {
+          "id": "school-teacher",
+          "text": "学生时代有没有一位老师，让您到现在还记得？",
+          "audio": {
+            "male": "./audio/male/school-teacher.mp3",
+            "female": "./audio/female/school-teacher.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "工作与岁月",
+      "subtitle": "第一份工作、同事和生活变化",
+      "mark": "03",
+      "questions": [
+        {
+          "id": "work-first-job",
+          "text": "您年轻时做的第一份工作是什么？那时候每天的生活是怎样的？",
+          "audio": {
+            "male": "./audio/male/work-first-job.mp3",
+            "female": "./audio/female/work-first-job.mp3"
+          }
+        },
+        {
+          "id": "work-proud",
+          "text": "回想工作和生活，有没有一件事让您觉得特别自豪？",
+          "audio": {
+            "male": "./audio/male/work-proud.mp3",
+            "female": "./audio/female/work-proud.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "家与亲人",
+      "subtitle": "相遇、成家和一家人的日常",
+      "mark": "04",
+      "questions": [
+        {
+          "id": "family-meeting",
+          "text": "您和家人第一次见面时是什么情形？有没有一直记得的小细节？",
+          "audio": {
+            "male": "./audio/male/family-meeting.mp3",
+            "female": "./audio/female/family-meeting.mp3"
+          }
+        },
+        {
+          "id": "family-tradition",
+          "text": "以前家里有没有一件每年都会做的事，或者一道让您怀念的家常菜？",
+          "audio": {
+            "male": "./audio/male/family-tradition.mp3",
+            "female": "./audio/female/family-tradition.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}
